@@ -15,8 +15,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "ciyuan"
   gem.homepage = "http://github.com/bastien/ciyuan"
   gem.license = "MIT"
-  gem.summary = %Q{Chinese}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Chinese Etymology}
+  gem.description = %Q{Wrapper around Richard Sears Chinese etymology website}
   gem.email = "bastien.vaucher@gmail.com"
   gem.authors = ["Bastien Vaucher"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
