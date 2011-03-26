@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "ciyuan.gemspec",
     "lib/ciyuan.rb",
     "lib/ciyuan/character.rb",
     "spec/ciyuan_spec.rb",
