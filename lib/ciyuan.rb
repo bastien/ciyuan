@@ -10,7 +10,9 @@ module Ciyuan
   
   class << self
     def search(character)
-      doc = Nokogiri::HTML(open("#{BASE_URL}#{ETHY_PATH}#{CGI::escape(character)}"))
+      html = open("#{BASE_URL}#{ETHY_PATH}#{CGI::escape(character)}")
+      doc = Nokogiri::HTML(html.read)
+      doc.encoding = 'utf-8'
       Character.new(doc)
     end
   end
