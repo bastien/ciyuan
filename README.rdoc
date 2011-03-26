@@ -1,6 +1,8 @@
 = ciyuan
 
-Description goes here.
+Wrapper around Richard Sears Chinese etymology website ( http://www.internationalscientific.org/CharacterEtymology.aspx )
+
+<code>Ciyuan.search("字").etymology => "Phonetic Signific, that which is performed in the house - writing, see 害冩"</code>
 
 == Contributing to ciyuan
  
